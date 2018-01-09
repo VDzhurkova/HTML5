@@ -1,0 +1,162 @@
+/*-------------------------------------------------
+lUMIERE FICTIONAL WEBSITE CSS STYLE FILE
+--------------------------------------------------*/
+/*-------------------------------------------------
+WEBSITE COLOUR SCHEME
+--------------------------------------------------*/
+
+
+/*Primary colour: rgb(195, 168, 255, 1); */
+/*Secondary colour: rgb(44, 31, 61, 1); */
+/*Third colour: rgb(55, 42, 71, 1); - variation of opacity*/
+/*Fourth colour: #444; for main content text and heading*/
+
+
+
+
+
+
+/*-------------------------------------------------
+MOBILE DEFAULT STYLES - GLOBAL STYLES
+--------------------------------------------------*/
+
+html {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/*-------------------------------------------------
+								 HOME STYLES
+--------------------------------------------------*/
+
+/*h1{
+ color: blue;
+}*/
+
+img, video{
+	width: 100%;  /* set to 100% of their parent container and will be responsive to the screen size of the device*/
+}
+
+body{
+	font-family:'Mukta', sans-serif;
+	font-size:16px;
+	color: #444;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+.container{
+	width:80%;
+	height:100%;
+	margin: 100px auto;
+
+}
+
+.homeBgImage{
+	position: relative;
+	background-image: url(../HTML5-master/Case_Study/img/trainerHomePage.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size:cover;
+	width:100%;
+	height: auto;
+	border-bottom: 15px solid rgba(53, 38, 80, 0.8);
+	background-attachment: fixed;
+
+
+}
+
+.logoC{
+ position: absolute;
+	top: 3px;
+	left: 10px;
+	width; 45px;
+	z-index: 110;
+}
+
+.fa-shopping-basket{
+	font-size: 4em;
+	color: rgba(194, 166, 255, 1);
+
+}
+
+.cartIcon{
+	position:absolute;
+	top:15px;
+	left: 45vw;
+	width: 45px;
+	z-index: 115;
+}
+
+.navC {
+color:white;
+	height: auto;
+	width:100%;
+	background-color: rgba(44,31,61,1);
+	position: fixed;
+	border-bottom: 2px solid
+	rgba(194,166,255,1);
+	z-index:100;
+}
+
+.navBtn{
+font-size: 2.5e;
+	display:block;
+	width: 20%;
+	margin: 0 4vw 0 73;
+	padding: 7px 3%;
+	text-align:center;
+	cursor:pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*-------------------------------------------------
+			 MOBILE STILES - 568px SCREEN RESOLUTION
+--------------------------------------------------*/
+
+@media screen and (min-width: 568px) {
+
+/*	h1{
+		color:green;
+}*/
+}
+
+/*-------------------------------------------------
+			 MOBILE STILES - 768px SCREEN RESOLUTION
+--------------------------------------------------*/
+
+@media screen and (min-width: 768px) {
+/*h1{
+		color:red;
+}*/
+}
+
+/*-------------------------------------------------
+			MOBILE STILES - 1024px SCREEN RESOLUTION
+--------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+/*h1{
+		color:orange;
+}*/
+}
+
+/*-------------------------------------------------
+			 MOBILE STILES - 1280px SCREEN RESOLUTION
+--------------------------------------------------*/
+
+@media screen and (min-width: 1280px) {
+/*h1{
+		color:purple;
+}*/
+}
+
