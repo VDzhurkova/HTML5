@@ -63,7 +63,7 @@ body{
 
 .homeBgImage{
 	position: relative;
-	background-image: url(../HTML5-master/Case_Study/img/trainerHomePage.jpg);
+	background-image: url(../Case_Study/img/trainerHomePage.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size:cover;
@@ -76,48 +76,105 @@ body{
 }
 
 .logoC{
- position: absolute;
+    position: absolute;
 	top: 3px;
 	left: 10px;
-	width; 45px;
+	width: 45px;
 	z-index: 110;
 }
 
 .fa-shopping-basket{
-	font-size: 4em;
+    position: absolute;
+	top: 3px;
+	left: 10px;
+	font-size: 2.5e;
 	color: rgba(194, 166, 255, 1);
 
 }
 
 .cartIcon{
 	position:absolute;
-	top:15px;
-	left: 45vw;
+	/* top:10px;*/
+	left: 75vw;
 	width: 45px;
 	z-index: 115;
 }
 
 .navC {
-color:white;
+    color:white;
 	height: auto;
 	width:100%;
 	background-color: rgba(44,31,61,1);
 	position: fixed;
+    
 	border-bottom: 2px solid
 	rgba(194,166,255,1);
 	z-index:100;
+    float:right;
+    display: inline-block;
 }
 
 .navBtn{
-font-size: 2.5e;
+    font-size: 2.5e;
 	display:block;
 	width: 20%;
 	margin: 0 4vw 0 73;
 	padding: 7px 3%;
+    border: none;
 	text-align:center;
+    position: fixed;
+    left: 80vw;
 	cursor:pointer;
 	background-color: rgba(0,0,0,0.5);
 }
+
+.navBtn:hover, .navBtn:focus, {
+    background-color: rgba(44,31,61,1);
+}
+
+
+
+.menu-items {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 180px;
+    overflow: auto;
+    /*box-shadow: 0px 2px 3px rgba(0,0,0,0.5);*/
+    right:0;
+    z-index: 1;
+    
+}
+
+.menu-items a {
+    color: white;
+    padding: 12px 16px;
+    display: block; 
+    text-decoration: none;
+    
+}
+
+.navC ul li:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background-color: rgba(44,31,61,1);
+}
+
+.navC ul {
+    background: background-color: rgba(44,31,61,1); 
+    list-style: none;
+    position: absolute;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.show {
+    display:block;
+}
+
+
+
 
 /*-------------------------------------------------
 			 MOBILE STILES - 568px SCREEN RESOLUTION
